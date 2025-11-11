@@ -1,7 +1,8 @@
-import React from "react";
-import Image from "../assets/Component.png";
 
-function Body() {
+import Image from "../assets/Component.png";
+import { Link } from "react-router-dom";
+
+function Form() {
   return (
     <div className="flex justify-center items-center h-[75vh] bg-white px-4">
       {/* Main container */}
@@ -59,15 +60,15 @@ function Body() {
             </button>
 
             {/* Sign up link */}
-            <p className="text-sm text-center mt-3 text-gray-700">
-              Don’t have an account?{" "}
-              <a
-                href="#"
-                className="text-orange-600 font-semibold hover:underline hover:text-orange-700"
-              >
-                Sign Up
-              </a>
-            </p>
+<p className="text-sm text-center mt-3 text-gray-700">
+  Don’t have an account?{" "}
+  <Link
+    to="/Signup"
+    className="text-orange-600 font-semibold hover:underline hover:text-orange-700"
+  >
+    Sign Up
+  </Link>
+</p>
           </form>
         </div>
 
@@ -84,4 +85,4 @@ function Body() {
   );
 }
 
-export default Body;
+export default Form;

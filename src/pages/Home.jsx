@@ -1,13 +1,14 @@
 
-import Body from '../component/Body'
+
+import Form from '../component/Form'
 
 function Home() {
  
   return (
     <>
-    <Body/>
+    <Form/>
     </>
   )
 }
 
-export default App
+export default Home
