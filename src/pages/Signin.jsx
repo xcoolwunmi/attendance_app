@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Image from "../assets/component.png"
+
 
 function Signin() {
   return (
@@ -74,7 +77,7 @@ function Signin() {
           <img
             src={Image}
             alt="Admin dashboard illustration"
-            className="w-80 h-auto object-contain"
+            className=" object-contain"
           />
         </div>
       </div>
