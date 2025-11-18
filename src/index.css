@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .form{
-    background: linear-gradient(#baf3d880),url("./assets/image.png");
+    background: linear-gradient(#ffd82a),url("./assets/image.png");
     background-repeat: no-repeat;
     background-size: cover;
 }

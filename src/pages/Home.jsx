@@ -1,14 +1,12 @@
 
-
-import Form from '../component/Form'
+import Hero from "../component/Hero";
 
 function Home() {
- 
   return (
     <>
-    <Form/>
+      <Hero />
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;
