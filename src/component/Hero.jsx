@@ -4,7 +4,7 @@ import WakoLogo from "../assets/wakocode-logo.png";
 
 function Hero() {
   return (
-    <div className="w-full bg-white py-10">
+    <div className=" justify-center items-center h-[75vh] bg-white mt-10 px-4">
       <div className=" form max-w-7xl mx-auto  rounded-3xl p-10 relative overflow-hidden flex flex-col md:flex-row items-center shadow-x2">
         <div className="md:w-2/2 space-y-3 z-10">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
@@ -18,7 +18,7 @@ function Hero() {
         </div>
 
         <div className="md:w-1/2 flex justify-center mt-10 md:mt-0 z-10">
-          <img src={StudentImg} alt="student" className="w-80 md:w-100" />
+          <img src={StudentImg} alt="student" className=" w-80 md:w-100" />
         </div>
       </div>
 
@@ -29,12 +29,11 @@ function Hero() {
           <img
             src={EkitiLogo}
             alt="ekiti"
-            className="w-20 h-20 shadow-md rounded-md"
+            className="w-20  shadow-md rounded-md ml-7"
           />
           <img
             src={WakoLogo}
             alt="wakocode"
-            className="w-28 h-20 shadow-md rounded-md"
           />
         </div>
      
